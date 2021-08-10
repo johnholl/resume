@@ -1,0 +1,57 @@
+
+.highlightcolumn {
+    flex: 25%;
+    background-color: #2526A6;
+    color: white;
+    padding: 10px;
+}
+
+.highlightcolumn > * {
+    margin: 10px 0;
+}
+
+.detailcolumn {
+    flex: 50%;
+    padding:10px;
+}
+
+.detailcolumn > * {
+    margin:10px;
+}
+
+.datescolumn{
+    flex:10%
+}
+
+.experiencecolumn{
+    flex:90%
+}
+
+    .detailcolumn h1 {
+        color: #2526A6;
+    }
+
+.row {
+    display: flex;
+}
+
+h3 {
+    background-color: #14155E;
+    padding: 5px 5px 5px 5px;
+}
+
+.attribute {
+    font-weight: bold;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+}
+
+ul > * {
+    margin: 10px 0;
+}
+
+body {
+    font-family: Calibri;
+}
