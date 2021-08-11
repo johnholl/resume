@@ -1,0 +1,58 @@
+
+.highlightcolumn {
+    flex: 25%;
+    background-color: #7633B5;
+    color: white;
+    padding: 10px;
+}
+
+    .highlightcolumn > * {
+        margin: 10px 0;
+    }
+
+.detailcolumn {
+    flex: 50%;
+    padding: 10px;
+}
+
+    .detailcolumn > * {
+        margin: 10px;
+    }
+
+.projcol{
+    flex: 50%
+}
+
+.detailcolumn h1 {
+    color: #7633B5;
+}
+
+.row {
+    display: flex;
+}
+
+h3 {
+    background-color: #3A145E;
+    padding: 5px 5px 5px 5px;
+}
+
+.attribute {
+    font-weight: bold;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+}
+
+hr.dashed {
+    border-top: 1px dashed #bbb;
+    margin: 10px 10px 10px 10px
+}
+
+ul > * {
+    margin: 10px 0;
+}
+
+body {
+    font-family: Calibri;
+}
